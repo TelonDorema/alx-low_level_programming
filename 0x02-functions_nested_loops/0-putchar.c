@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Printing putchar follwed by a new line
+ * main - Printing _putchar follwed by a new line
  *
  * Return: always 0
  *
@@ -9,13 +9,14 @@
 
 int main(void)
 {
-	int i;
+	int j;
 	char c[] = "_putchar";
 
-	for (i = 0; i <= 3; i++)
+	for (j = 9; j >= 0; j--)
 	{
-		_putchar(c[i]);
+		_putchar(c[j]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
