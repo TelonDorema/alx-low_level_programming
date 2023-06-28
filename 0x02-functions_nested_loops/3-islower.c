@@ -5,21 +5,22 @@
  *
  * Description: print with _putchar
  * @c: collect alphabet
- * Return: 1 if c is lower otherwise 0
+ *
+ * Return: (1) if c is lower otherwise (0)
  *
  */
 
 int _islower(int c)
 {
 	char j;
-	int l = 0;
+	int lower = 0;
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
 		if (j == c)
 		{
-			l = j;
+		lower = j;
 		}
 	}
-	return (l);
+	return (lower);
 }
