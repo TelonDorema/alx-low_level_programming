@@ -3,8 +3,8 @@
 /**
  * _islower - check for lowercase character
  *
- * Description: print with _putchar
- * @c: collect alphabet
+ * Description: use _putchar to print
+ * @c: collect alphabets
  *
  * Return: (1) if c is lower otherwise (0)
  *
@@ -19,7 +19,7 @@ int _islower(int c)
 	{
 		if (j == c)
 		{
-		lower = j;
+		lower = 1;
 		}
 	}
 	return (lower);
