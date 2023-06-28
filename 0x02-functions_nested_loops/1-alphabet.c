@@ -5,4 +5,15 @@
  *
  */
 
-void print_alphabet (void)
+void print_alphabet(void)
+{
+	char ph;
+
+	ph = 'a';
+	while (ph <= 't')
+	{
+		_putchar(ph);
+		ph++;
+	}
+	_putchar('\n');
+}
